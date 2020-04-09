@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manage Data</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1> Setting</h1>
+    <ul>
+        <li class="a" onclick="fun(0)">Short Description</li>
+        <li class="c" onclick="fun(1)">Book Description</li>
+        <li class="d" onclick="fun(2)">Ideas</li>
+        <li class="e" onclick="fun(3)">Motivational Quotes</li>
+        <li class="f">Images</li>
+    </ul>
+
+    <form class="shortdescription" >
+        <p class="short">Short Description</p>
+        <textarea placeholder="Enter  your Short Description " rows="15"></textarea>
+        <br/>
+        <input type="submit" class="sub" /> 
+    </form>
+  
+
+    <form class="shortdescription" >
+        <p class="book">Book Description</p>
+        <input type="text"  class="title"placeholder="Title of Book"/>
+        <textarea placeholder="Write Short Description about Book" rows="15"></textarea>
+        <br/>
+        <input type="submit" class="sub2" /> 
+    </form>
+
+    
+    <form class="shortdescription" >
+        <p class="short">Idea Of The Day</p>
+
+        <textarea placeholder="Write Your Idea Here" rows="15"></textarea>
+        <br/>
+        <input type="submit" class="sub2" /> 
+    </form>
+
+    <form class="shortdescription" id="motive">
+        <p class="short">Motivational Quotes</p>
+        <input type="text"  class="title"placeholder="Enter Current Date here"/>
+        <textarea placeholder="Write Motivational Quotes" rows="15"></textarea>
+        <br/>
+        <input type="submit" class="sub2"  /> 
+    </form>
+<script src="index.js"></script>  
+</body>
+</html>
